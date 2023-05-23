@@ -13,3 +13,30 @@
  *= require_tree .
  *= require_self
  */
+
+ h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 15px
+ }
+
+ p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 15px
+ }
+
+ .list {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+
+ }
+
+ .button {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 10px;
+  text-decoration: none;
+  background-color: antiquewhite;
+  border-color: black;
+  border-style: solid;
+  padding: 7px;
+  margin-top: 50px;
+ }

@@ -1,0 +1,10 @@
+<h1>🗒️ To Do Manager ✅</h1>
+<p>This is what you have to do:</p>
+
+<ul>
+  <% @tasks.each do |task| %>
+    <li><%= link_to task.title, task_path(task), class: "list" %></li>
+  <% end %>
+</ul>
+
+<%= link_to "Create a new task", tasks_new_path, class: "button" %>
