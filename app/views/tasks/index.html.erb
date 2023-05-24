@@ -1,5 +1,5 @@
 <h1>🗒️ To Do Manager ✅</h1>
-<p>This is what you have to do:</p>
+<p>Choose a task for more actions</p>
 
 <ul>
   <% @tasks.each do |task| %>
@@ -7,4 +7,4 @@
   <% end %>
 </ul>
 
-<%= link_to "Create a new task", tasks_new_path, class: "button" %>
+<%= link_to "Create a new task", new_task_path, class: "button" %>

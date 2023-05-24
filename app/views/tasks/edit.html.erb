@@ -1,11 +1,11 @@
-<h1>🗒️ Create a new task ✅</h1>
+<h2>What do you want to edit?</h2>
 
 <%= form_with model: @task do |f| %>
   <%= f.label :title %>
   <%= f.text_field :title %>
   <%= f.label :details %>
   <%= f.text_field :details %>
+  <%= f.check_box :completed %>
+  <%= f.label :completed, "Task completed" %>
   <%= f.submit %>
 <% end %>
-
-<%= link_to "Back to list ", tasks_path, class: "button" %>

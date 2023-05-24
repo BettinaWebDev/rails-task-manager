@@ -10,6 +10,7 @@ Rails.application.routes.draw do
   # post "/tasks", to: "tasks#create"
   # patch "tasks/:id", to: "tasks#update"
   # delete "tasks/:id", to: "tasks#destroy", as: "task_delete"
+  # get "tasks/:id/edit", to: "tasks#edit"
 
   resources :tasks #, only: [:index, :show, :new, :create :destroy, :edit, :update]
 end
